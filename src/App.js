@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './Header';
+import Homepage from './Homepage';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import logo from './logo.svg';
@@ -9,7 +10,7 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      <Navbar />
+      <Homepage />
       <Footer />
     </React.Fragment>
   );
