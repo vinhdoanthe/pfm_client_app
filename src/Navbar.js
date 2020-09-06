@@ -26,10 +26,18 @@ const Navbar = (active_item) => {
   };
 
   const sideNav = [
-    createItem('Transactions'),
-    createItem('Tasks'),
-    createItem('Dashboard'),
-    createItem('Settings'),
+    createItem('Transactions', {
+      href: '/transactions'
+    }),
+    createItem('Tasks', {
+      href: '/tasks'
+    }),
+    createItem('Dashboard', {
+      href: '/dashboard'
+    }),
+    createItem('Settings', {
+      href: 'settings'
+    }),
   ];
 
   return (
